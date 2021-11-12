@@ -3,10 +3,11 @@
 这个工具仅需输入文字便可生成 pc 端微信聊天截图
 因为使用了 Node Canvas 的缘故，需要使用者自己部署本地项目，本工作流仅提供快捷调用，实际功能由本地 Node.js 项目提供。
 
-Node.js 项目地址: https://github.com/RongleCat/fmcat-redundant-generator
+## 使用方法
 
-拉取项目后先安装依赖，运行 npm run test-dark 测试是否能生成图片
-安装依赖卡住的请访问: https://www.npmjs.com/package/canvas
+1. clone 本仓库到本地
+2. 安装依赖，运行 npm run test-dark 测试是否能生成图片（安装依赖卡住的请访问: https://www.npmjs.com/package/canvas）
+3. 双击 `workflow/redundant.alfredworkflow` 文件导入 Alfred 工作流
 
 ## 变量
 
