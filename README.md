@@ -9,6 +9,9 @@ Node.js 项目地址: https://github.com/RongleCat/fmcat-redundant-generator
 安装依赖卡住的请访问: https://www.npmjs.com/package/canvas
 
 ## 变量
+
 **headUrl**: 聊天截图的头像路径，需要网络地址
+
 **nodePath**: 指定 Node.js 的路径，如果没有路径会自动引入 .zshrc 尝试寻找 node 命令，如果无法满足请大佬自行修改。
+
 **projectPath**: Node.js 项目路径，需要系统绝对路径
