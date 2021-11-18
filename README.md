@@ -6,7 +6,7 @@
 ## 使用方法
 
 1. clone 本仓库到本地
-2. 安装依赖，运行 npm run test-dark 测试是否能生成图片（安装依赖卡住的请访问: https://www.npmjs.com/package/canvas
+2. 安装依赖，运行 npm run test-dark 测试是否能生成图片（安装依赖卡住的请访问: https://www.npmjs.com/package/canvas[https://www.npmjs.com/package/canvas]）
 3. 双击 `workflow/redundant.alfredworkflow` 文件导入 Alfred 工作流
 4. Mac OS 12 以上支持 快捷指令可以使用已经配置好的 https://www.icloud.com/shortcuts/fc33c36262454fff82334232c64d6fbe 
 
