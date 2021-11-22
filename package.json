@@ -4,12 +4,20 @@
   "description": "多此一举生成器",
   "main": "index.js",
   "scripts": {
-    "test-dark": "headUrl=https://fmcat-images.oss-cn-hangzhou.aliyuncs.com/head.png projectPath=. node index.js 这是黑色主题的文字 dark",
-    "test-light": "headUrl=https://fmcat-images.oss-cn-hangzhou.aliyuncs.com/head.png projectPath=. node index.js 这是白色主题的文字 light"
+    "vscode:prepublish": "webpack --mode production",
+    "compile": "webpack --mode none",
+    "watch": "webpack --mode none --watch",
+    "test-dark": "headUrl=https://fmcat-images.oss-cn-hangzhou.aliyuncs.com/head.png projectPath=. ./txiki dist/index.js 这是黑色主题的文字 dark",
+    "test-light": "headUrl=https://fmcat-images.oss-cn-hangzhou.aliyuncs.com/head.png projectPath=. node dist/index.js 这是白色主题的文字 light"
   },
   "author": "ronglecat@163.com",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.8.0"
+    "canvas": "^2.8.0",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "devDependencies": {
+    "node-loader": "^2.0.0"
   }
 }
